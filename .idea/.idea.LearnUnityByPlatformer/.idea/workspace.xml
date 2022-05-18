@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aa02f87a-f2a1-4a05-9edf-b47477242d6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnUnityByPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnUnityByPlatformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation/BURLY-MAN_1_swordsman.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation/BURLY-MAN_1_swordsman.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
       <workItem from="1652515623773" duration="96000" />
       <workItem from="1652517106873" duration="5471000" />
       <workItem from="1652602182149" duration="9921000" />
+      <workItem from="1652913429895" duration="4598000" />
     </task>
     <servers />
   </component>
