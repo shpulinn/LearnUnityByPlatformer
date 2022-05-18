@@ -258,6 +258,8 @@ GameObject:
   - component: {fileID: 95402055669183070}
   - component: {fileID: 488210707}
   - component: {fileID: 488210706}
+  - component: {fileID: 488210709}
+  - component: {fileID: 488210710}
   m_Layer: 0
   m_Name: Wooden_Doll
   m_TagString: Untagged
@@ -274,7 +276,7 @@ Transform:
   m_GameObject: {fileID: 1256030191282544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.77, y: 0.06, z: 9.28125}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: -1.3, y: 1.3, z: 1}
   m_Children:
   - {fileID: 4732300192031178}
   - {fileID: 4952787954646398}
@@ -313,7 +315,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256030191282544}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -342,6 +344,44 @@ CapsuleCollider2D:
   m_Offset: {x: -0.17955409, y: 0.2620198}
   m_Size: {x: 0.8591081, y: 2.110176}
   m_Direction: 0
+--- !u!114 &488210709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256030191282544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99929b1fda6433a4fb9be65e3e8a2d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkDistance: 6
+  patrolSpeed: 1
+  chaseSpeed: 3
+  waitTime: 5
+  timeToChase: 3
+  minDistanceToPlayer: 2
+  gizmosColor: {r: 1, g: 0.08962262, b: 0.52136636, a: 1}
+--- !u!114 &488210710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256030191282544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9b1bfd303ca9b4ebb5a4bd0ad9168b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHitObject: {fileID: 0}
+  circeRadius: 0.5
+  maxVisionDistance: 6
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  gizmosColor: {r: 0.18039216, g: 0, b: 1, a: 1}
 --- !u!1 &1264486643638618
 GameObject:
   m_ObjectHideFlags: 0
