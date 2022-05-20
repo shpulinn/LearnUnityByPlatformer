@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [SerializeField] private float weaponDamage = 20.0f;
     private PlayerAttackController _playerAttackController;
 
     private void Start()
@@ -12,14 +13,20 @@ public class Weapon : MonoBehaviour
         _playerAttackController = transform.root.GetComponent<PlayerAttackController>();
     }
 
-    // bad code for hit check :(
+    //bad code for hit check :(
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.name);
-        if (_playerAttackController.IsAttack == false) return;
-        if (col.TryGetComponent(out EnemyMoveController enemyMoveController))
+        //if (_playerAttackController.IsAttack == false) return;
+        EnemyHealth enemyHealth = col.GetComponent<EnemyHealth>();
+        if (enemyHealth != null && _playerAttackController.IsAttack)
         {
-            Debug.Log("Hit");
+            enemyHealth.ReduceHealth(weaponDamage);
+            col = null;
         }
+        //enemyHealth.ReduceHealth(weaponDamage);
+        // if (col.TryGetComponent(out EnemyHealth enemyHealth ))
+        // {
+        //     enemyHealth.ReduceHealth(weaponDamage);
+        // }
     }
 }
