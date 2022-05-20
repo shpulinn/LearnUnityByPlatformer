@@ -35,7 +35,7 @@ public class EnemyMoveController : MonoBehaviour
     private Transform _playerTransform;
 
     private const string PlayerTag = "Player";
-    
+
     public bool IsFacingRight { get => _isFacingRight; }
 
     private void Start()
