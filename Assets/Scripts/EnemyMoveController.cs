@@ -15,6 +15,8 @@ public class EnemyMoveController : MonoBehaviour
     [SerializeField] private float timeToChase = 3.0f;
     [SerializeField] private float minDistanceToPlayer = 1.5f;
 
+    [SerializeField] private Transform enemyModelTransform;
+
     [SerializeField] private Color gizmosColor;
 
     private Rigidbody2D _rb;
@@ -130,9 +132,9 @@ public class EnemyMoveController : MonoBehaviour
     private void Flip()
     {
         _isFacingRight = !_isFacingRight;
-        var playerScaleCurrent = transform.localScale;
+        var playerScaleCurrent = enemyModelTransform.localScale;
         playerScaleCurrent.x *= -1;
-        transform.localScale = playerScaleCurrent;
+        enemyModelTransform.localScale = playerScaleCurrent;
     }
 
     private float DistanceToPlayer()
