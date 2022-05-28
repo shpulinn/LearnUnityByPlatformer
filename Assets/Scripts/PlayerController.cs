@@ -4,6 +4,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speedX = 5f;
 
+    [SerializeField] private Transform playerModelTransform;
+
     private float _horizontal = 0f;
 
     private Rigidbody2D _rb;
@@ -92,9 +94,9 @@ public class PlayerController : MonoBehaviour
     private void Flip()
     {
         _isFacingRight = !_isFacingRight;
-        var playerScaleCurrent = transform.localScale;
+        var playerScaleCurrent = playerModelTransform.localScale;
         playerScaleCurrent.x *= -1;
-        transform.localScale = playerScaleCurrent;
+        playerModelTransform.localScale = playerScaleCurrent;
     }
 
     private void AssignAnimationsIDs()
