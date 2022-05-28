@@ -6,12 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="aa02f87a-f2a1-4a05-9edf-b47477242d6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnUnityByPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnUnityByPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation/BURLY-MAN_1_swordsman.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation/BURLY-MAN_1_swordsman.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/WoodenDoll/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/WoodenDoll/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/WoodenDoll/Wooden_Doll.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/WoodenDoll/Wooden_Doll.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +92,7 @@
       <workItem from="1652602182149" duration="9921000" />
       <workItem from="1652913429895" duration="4598000" />
       <workItem from="1653032619160" duration="3003000" />
+      <workItem from="1653733212165" duration="4139000" />
     </task>
     <servers />
   </component>
